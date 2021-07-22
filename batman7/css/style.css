@@ -1,0 +1,21 @@
+#foto-batman {
+    background-color: #E5E5E5;
+}
+#foto-batman, h1, footer {
+    text-align: center;
+}
+h1, h3 {
+    color: #005677;
+    background-color: #C4C4C4;
+}
+.lista-datos {
+    font-style: italic;
+    font-weight: bold;
+}
+dt {
+    font-weight: bold;
+}
+footer {
+    background-color: #005677;
+    color:#FFFFFF;
+}
