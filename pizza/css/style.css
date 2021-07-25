@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 70000;
+    color: white;
+}
+h1 .logo1 {
+    color:#39B24A;
+}
+h1 .logo2 {
+    color:#FC200C;
+}
+/*-----------------header----------------*/
+header {
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    background-color: #222222;
+    font-size: 16px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+/*---------------logo-----------------------*/
+header div{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-around;
+    position: relative;
+    left: 30px;
+}
+/*-------------barra de navegacion--------------*/
+header nav dl{
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    position: relative;
+    right: 20px;
+}
+/*-----------------main----------------*/
+h2 {
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+}
+main {
+    background-color: #E5E5E5;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 720px;
+}
+main section {
+    border-radius: 7px;
+}
+/*---------------seccion envio gratis--------------------*/
+#envio-gratis {
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 490px;
+    margin: 20px;
+}
+#envio-gratis h2 {
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+/*---------------seccion podio--------------------*/
+#podio {
+    background-color: white;
+    height: 350px;
+    width: 490px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#podio h2 {
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+#podio div {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ol {
+    font-size: 16px;
+    font-weight: 700;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*-----------------footer----------------*/
+footer {
+    background-color: #222222;
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer nav dl {
+    font-size: 16px;
+    font-weight: 400;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 20px;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-around;
+    position: relative;
+    right: 30px;
+}
