@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/instagram?style=brands">
     <script src="https://kit.fontawesome.com/e6948bbefc.js" crossorigin="anonymous"></script>
-    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,12 +19,17 @@
         <section id="idioma-moneda">
             <p>Grandes ofertas en comederos</p>
             <ul type="none">
-                <li><button class="botones-configuracion">Español<img class="flechita" src="img/flechita.svg"></button></li>
-                <li><button class="botones-configuracion">ARG$<img class="flechita" src="img/flechita.svg"></button></li>
+                <li><button class="botones-configuracion">Español<img class="flechita" src="img/flechita.svg"></button>
+                </li>
+                <li><button class="botones-configuracion">ARG$<img class="flechita" src="img/flechita.svg"></button>
+                </li>
             </ul>
         </section>
-        <section id="menu-nav">
-            <h3><img src="img/Cat.svg" alt="cat"><span>Front</span>Cat&Dog<img src="img/Dog.svg" alt="dog"></h3>
+    </header>
+    <main>
+        <div id="menu-nav">
+            <h3 class="textos-izquierda"><img src="img/Cat.svg" alt="cat"><span>Front</span>Cat&Dog<img
+                    src="img/Dog.svg" alt="dog"></h3>
             <nav>
                 <ul type="none">
                     <li><img src="img/pawprint 1.svg" alt="paw">Categorías</li>
@@ -33,75 +38,94 @@
                     <li><img src="img/pawprint 1.svg" alt="paw">Contactanos</li>
                 </ul>
             </nav>
-        </section>
-    </header>
-    <main>
+        </div>
+
         <section id="banner">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <h3>¡Comederos en descuento!</h3>
-            <button>COMEDEROS</button>
+            <div>
+                <h2>¡Es un placer tenerte aquí!</h2>
+                <h3>¡Comederos en descuento!</h3>
+                <button>COMEDEROS</button>
+            </div>
         </section>
         <section id="destacados">
             <img class="paw-grande" src="img/pawprint-grande.svg" alt="paw">
             <h1>Productos Destacados</h1>
             <nav>
                 <ul type="none">
-                    <li><a href="comederos.html">Comederos</a></li>
-                    <li><a href="accesorios.html">Accesorios</a></li>
-                    <li><a href="comida">Comida</a></li>
+                    <li>Comederos</li>
+                    <li>-</li>
+                    <li>Accesorios</li>
+                    <li>-</li>
+                    <li>Comida</li>
                 </ul>
             </nav>
-            <article>
-                <img src="img/churrasquito.png" alt="Churrasquito">
-                <p class="nombre-articulo">Juguete Churrasquito</p>
-                <p class="precio-articulo">$150</p>
-            </article>
-            <article>
-                <img src="img/comedero.png" alt="Comedero">
-                <p class="nombre-articulo">Comedero para perro</p>
-                <p class="precio-articulo">$250</p>
-            </article>
-            <article>
-                <img src="img/Huesito.png" alt="Huesito">
-                <p class="nombre-articulo">Juguete Huesito</p>
-                <p class="precio-articulo">$650</p>
-            </article>
+            <div>
+                <article>
+                    <img src="img/churrasquito.png" alt="Churrasquito">
+                    <p class="nombre-articulo">Juguete Churrasquito</p>
+                    <p class="precio-articulo">$150</p>
+                </article>
+                <article>
+                    <img src="img/comedero.png" alt="Comedero">
+                    <p class="nombre-articulo">Comedero para perro</p>
+                    <p class="precio-articulo">$250</p>
+                </article>
+                <article>
+                    <img src="img/Huesito.png" alt="Huesito">
+                    <p class="nombre-articulo">Juguete Huesito</p>
+                    <p class="precio-articulo">$650</p>
+                </article>
+            </div>
         </section>
-        <section id="formulario">
+        <!--<section id="formulario">
             <h2>Contáctanos</h2>
             <p>Nombre y apellido</p>
             <p>Ingresá tu correo electrónico</p>
             <p>Teléfono</p>
             <button id="resetear">Resetear</button>
             <div><button>Enviar</button></div>
-        </section>
+        </section>-->
     </main>
     <footer>
         <section id="suscripcion">
-            <img src="img/mail.svg"><h3>Suscríbete para más novedades</h3>
-            <p>Ingresa tu correo electrónico</p>
-            <button>Suscribirme</button>
+            <div class="textos-izquierda">
+                <img src="img/mail.svg">
+                <h3>Suscríbete para más novedades</h3>
+            </div>
+            <div id="espacio-rellenar">
+                <p>Ingresa tu correo electrónico</p>
+                <button>Suscribirme</button>
+            </div>
         </section>
-        <section id="datos-negocio">
-            <nav>
-                <dl>
-                    <dt>
-                        <img src="img/localidad.svg"><h3>Localidad</h3>
-                    </dt>
-                    <dd>Calle - provincia</dd>
-                    <dt>
-                        <img src="img/telefono.svg"><h3>Teléfono</h3>
-                    </dt>
-                    <dd>Número de teléfono</dd>
-                    <dt>
-                        <img src="img/correo.svg"><h3>Correo Electrónico</h3>
-                    </dt>
-                    <dd>Dirección de correo</dd>
-                </dl>
-            </nav>
-            <h3><img src="img/Cat.svg" alt="cat">Front<span>Cat&Dog</span><img src="img/Dog.svg" alt="dog"></h3>
+        <section id="segundo-foot">
+            <div id="datos-negocio">
+                <div id="iconos-negocio">
+                    <img width="66" src="img/localidad.svg">
+                    <img width="66" src="img/telefono.svg">
+                    <img width="66" src="img/correo.svg">
+                </div>
+                <nav>
+                    <dl>
+                        <dt>
+                            <h3>Localidad</h3>
+                        </dt>
+                        <dd>Calle - provincia</dd>
+                        <dt>
+
+                            <h3>Teléfono</h3>
+                        </dt>
+                        <dd>Número de teléfono</dd>
+                        <dt>
+
+                            <h3>Correo Electrónico</h3>
+                        </dt>
+                        <dd>Dirección de correo</dd>
+                    </dl>
+                </nav>
+            </div>
+            <h2><img src="img/Cat.svg" alt="cat">Front<span>Cat&Dog</span><img src="img/Dog.svg" alt="dog"></h>
         </section>
-        <div>
+        <div id="derechos">
             <p>Todos los derechos reservados Front End</p>
         </div>
     </footer>

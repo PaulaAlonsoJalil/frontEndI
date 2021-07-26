@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;    
+}
+button {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    margin: 0 4px 0;
+}
+/*---------------header----------------*/
+header {
+    background-color: #000000;
+    color: white;
+}
+/*-------------------------------------menu idioma moneda------------------------------*/
+#idioma-moneda {
+    background-color: black;
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: lighter;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#idioma-moneda p { /*publicidad*/
+    position: relative;
+    left: 100px;
+}
+header #idioma-moneda ul { 
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 70px;
+}
+.botones-configuracion {
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-radius: 10px;
+}
+.flechita {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 4px;
+    top: 1px;
+}
+/*--------------------------------------menu principal-------------------------------*/
+#menu-nav {
+    background-color: #F0A83E;
+    color: white;
+    font-weight: 500;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+/*----------------------logo---------------------*/
+#menu-nav span{
+    color: black;
+}
+.textos-izquierda {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 30px;
+}
+/*-----------menu de navegacion-------------*/
+div nav ul{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    position: relative;
+    right: 50px;
+}
+div nav ul img { /*huellita*/
+    position: relative;
+    top: 2px;
+}
+/*--------------------------------------banner------------------------------------*/
+#banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+main #banner div {
+    position: relative;
+    right: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#banner h2 { 
+    background-color: white;
+    font-size: 30px;
+    width: 365px;
+    height: 55px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+#banner button {
+    background-color: #F0A83E;
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 3px;
+    border-width: 0;
+    position: relative;
+    left: 100px;
+}
+/*---------------productos destacados----------------*/
+main #destacados {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#destacados div { /*lista de productos*/
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 315px;
+    justify-content: space-between;
+    align-content: stretch;
+}
+#destacados div article { /*cada producto*/
+    background-color: #faf9f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#destacados nav ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+#destacados .paw-grande {
+    width: 120px;
+}
+#destacados nav {
+    color:#666666;
+    font-weight: 500;
+}
+.nombre-articulo {
+    font-size: 15px;
+}
+.precio-articulo {
+    font-size: 15px;
+    color:#F0A83E;
+}
+/*---------------formulario----------------
+#formulario h2 {
+    color:#3C2313;
+}
+#formulario button {
+    color:white;
+    background-color: #8A8787;
+    border-width: 0;
+    border-radius: 10px;
+}
+#formulario button div {
+    color:white;
+    background-color: #F0A83E;
+    border-width: 0;
+    border-radius: 10px;
+}*/
+/*---------------barra suscripcion------------*/
+#suscripcion { 
+    color: white;
+    background-color:#F0A83E;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div { 
+    display:flex;
+    flex-direction: row;
+}
+#espacio-rellenar { /*barra para el correo electronico y boton*/
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    right: 40px;
+}
+#suscripcion p { /*barra para el correo electronico*/
+    color: #A0A0A0;
+    background-color: white;
+    width: 270px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+    
+}
+#suscripcion button { /*boton*/
+    background-color: #3C2313;
+    border-radius: 10px;
+    border-width: 0;
+    color: white;
+    width: 70px;
+    height: 35px;
+    font-size: 12px;
+}
+/*---------------datos-negocio----------------*/
+footer {
+    color: white;
+}
+#segundo-foot {
+    background-color: #3C2313;
+    height: 284px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#datos-negocio {
+    position: relative;
+    top: -12px;
+}
+footer #iconos-negocio {
+    width: 150px;
+    display: flex;
+    height: 270px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    top: 10px;
+}
+footer nav dl {
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+footer nav dd {
+    position: relative;
+    bottom:20px;
+    color:#8A8787;
+    font-size: 15px;
+}
+footer h2 {
+    position: relative;
+    right: 60px;
+}
+footer h2 span { /*logo*/
+    color:#F0A83E;
+}
+#derechos {
+    background-color: black;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
