@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(../img/background.jpg);
+    background-position-y: 170px;
+    background-position-x: 50px;
+    background-size: 1300px;
+    
+}
+#arreglo {
+    background-color: #8574ab;
+    height: 170px;
+}
+@font-face {
+    font-family: "8-bit-in";
+    src: url(../font/8-bit_Arcade_In.ttf);
+} 
+@font-face {
+    font-family: "8-bit-out";
+    src: url(../font/8-bit_Arcade_Out.ttf);
+}
+@font-face {
+    font-family: "gameboy";
+    src: url(../font/Early\ GameBoy.ttf);
+}
+
+h1 {
+    font-family: "8-bit-in";
+    font-size: 10rem;
+    color: #1a2119;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+button {
+    background-color: transparent;
+    height: 150px;
+    width: 200px;
+    border-color: transparent;
+    
+    
+}
+button a{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    font-family: "gameboy";
+    font-size: 25px;
+    color:#1a2119; 
+    font-style: normal;
+    text-decoration: none;
+}
+button:hover{
+
+    font-style: normal;
+    text-decoration: none;
+}
+img {
+    width: 100px;
+}
+/*-------------------------------------------------------------------*/
+main section {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
