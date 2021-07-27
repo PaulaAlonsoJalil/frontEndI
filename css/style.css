@@ -3,69 +3,74 @@
     margin: 0;
 }
 body {
-    background-image: url(../img/background.jpg);
-    background-position-y: 170px;
-    background-position-x: 50px;
-    background-size: 1300px;
+    background-image: url(../img/rick.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
     
 }
-#arreglo {
-    background-color: #8574ab;
-    height: 170px;
-}
 @font-face {
-    font-family: "8-bit-in";
-    src: url(../font/8-bit_Arcade_In.ttf);
+    font-family: "rickymortyverde";
+    src: url(../font/rickymortyverde.ttf);
 } 
 @font-face {
-    font-family: "8-bit-out";
-    src: url(../font/8-bit_Arcade_Out.ttf);
+    font-family: "caligrafia";
+    src: url(../font/Calligraphr-Regular.ttf);
 }
-@font-face {
-    font-family: "gameboy";
-    src: url(../font/Early\ GameBoy.ttf);
-}
-
 h1 {
-    font-family: "8-bit-in";
-    font-size: 10rem;
-    color: #1a2119;
+    font-family: "rickymortyverde";
+    font-size: 150px;
+    height: 500px;
+    color: #10adc5;
     display: flex;
     justify-content: center;
-    position: relative;
-    bottom: 100px;
+    align-items: center;
+    text-: violet;
+
+    
 }
 button {
     background-color: transparent;
     height: 150px;
     width: 200px;
     border-color: transparent;
-    
-    
 }
 button a{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
-    font-family: "gameboy";
-    font-size: 25px;
+    font-size: 35px;
     color:#1a2119; 
+    font-family: "caligrafia";
     font-style: normal;
     text-decoration: none;
 }
 button:hover{
-
     font-style: normal;
     text-decoration: none;
 }
 img {
-    width: 100px;
+    width: 7rem;
+    border-radius: 500px;
+    margin: 10px;
 }
 /*-------------------------------------------------------------------*/
-main section {
-    height: 600px;
+main {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
+.stroke {
+    text-shadow: -2px -2px 1px 
+    #0a413b, 2px 2px 1px 
+    #0a413b, -2px 2px 1px 
+    #0a413b, 2px -2px 1px 
+    #0a413b, -4px -4px 1px #9ee298,
+    4px 4px 1px #9ee298,
+    -4px 4px 1px #9ee298,
+    4px -4px 1px #9ee298,
+    -8px -8px 13px #87cf74,
+    8px 8px 13px #87cf74,
+    -8px 8px 13px #87cf74,
+    8px -8px 13px #87cf74;
+    }
