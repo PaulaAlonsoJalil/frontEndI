@@ -17,6 +17,7 @@ header {
     background-color: #000000;
     color: white;
 }
+/*----------------boton al index-----------------------*/
 @font-face {
     font-family: "caligrafia";
     src: url(../font/Calligraphr-Regular.ttf);
@@ -36,7 +37,6 @@ main #index button {
     top:85%;
     left: 90%;
 }
-/*----------------boton al index-----------------------*/
 main #index button a {
     color: black;
     font-style: normal;

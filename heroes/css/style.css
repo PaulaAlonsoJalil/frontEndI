@@ -35,6 +35,32 @@ h1 {
     font-weight: 700;
 }
 /*-----------------main---------------------------------*/
+/*----------------boton al index-----------------------*/
+@font-face {
+    font-family: "caligrafia";
+    src: url(../font/Calligraphr-Regular.ttf);
+}
+main #index button {
+    width: 100px;
+    height: 100px;
+    color:black;
+    font-family: "caligrafia";
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 500px;
+    border-color: white;
+    background-image: url(../img/tierra.jpg);
+    background-size: cover;
+    position: fixed;
+    top:85%;
+    left: 90%;
+}
+main #index button a {
+    color: black;
+    font-style: normal;
+    text-decoration:none;
+}
+/*-----------------------------------------------------*/
 #heroes .foto-perfil {
     border-radius: 4rem;
 }
