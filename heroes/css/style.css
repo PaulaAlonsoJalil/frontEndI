@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+html {
+    position: relative;
+    height: 100vh;
+}
 body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -10,14 +14,13 @@ body {
 header {
     background-color: #1CD1B0;
     height: 38px;
-    
+    display: flex;
+    align-items: center;
 }
 header section p {
-    position: relative;
     z-index: 3;
-    top: 10px;
-    left: -15px;
     font-weight: 700;
+    margin: 15px;    
 }
 /*--------------------------titulo-----------------------*/
 #titulo, footer {
@@ -61,78 +64,75 @@ main #index button a {
     text-decoration:none;
 }
 /*-----------------------------------------------------*/
-#heroes .foto-perfil {
-    border-radius: 4rem;
+main section {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    flex-wrap: wrap;
 }
-button {
-    color: white;
-    background-color: #00669F;
-    border-color: transparent;
-}
-.foto-perfil{
+article {
     position: relative;
-    right: 220px;
-    top: 60px;
-    z-index: 1;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 main section div {
     width: 300px;
     background-color: #F3F3F3;
-    height: 336px;
+    height: 350px;
     position: relative;
-    bottom: 33px;
-    left: 34px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-p {
-    position: relative;
-    top: 100px;
+main section div p {
+    position: absolute;
+    bottom:34%;
     padding: 0 30px 0;
     font-weight: 400;
+    z-index: 3;
+}
+.foto-perfil{
+    position: absolute;
+    bottom: 55%;
+    z-index: 1;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 main section h2 {
-    position: relative;
-    z-index: 1;
-    top: 60px;
-    left: 125px;
-}
-main section h2 span {
-    position: relative;
-    left: -10px;
+    position: absolute;
+    bottom: 48%;
+    z-index: 2;
 }
 button {
-    position: relative;
-    bottom: 110px;
-    left: 120px;
+    position: absolute;
+    bottom: 5%;
     z-index: 1;
     width: 129px; 
     height: 49px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    color: white;
+    background-color: #00669F;
+    border-color: transparent;
 }
-.corazon {
-    position: relative;
-    left: 55px;
-    bottom: 150px;
-}
-main section {
-    height: 850px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+section .corazon {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    z-index: 3;
 }
 /*-----------------footer---------------------------------*/
 footer {
-    min-height: calc(100vh - 1000px - 50px);
-    max-height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
 }
 footer p{
     position: absolute;
-    top: 1030px;
     z-index: 4;
     color: white;
-    
-    
 }
