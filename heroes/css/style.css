@@ -1,39 +1,39 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
-html {
-    min-height: 100%;
-    position: relative;
 }
 body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     overflow-x:hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
 }
 /*-----------------header---------------------------------*/
-header {
+div section {
     background-color: #D1891C;
-    height: 38px;
+    height: 4vh;
     display: flex;
     align-items: center;
 }
-header section p {
+div section p {
     z-index: 3;
     font-weight: 700;
-    margin: 15px;    
+    padding: 30px;    
 }
 /*--------------------------titulo-----------------------*/
-#titulo{
+header{
     background-color: #00669F;
-    height: 75px;
+    height: 12vh;
     color: white;
-    padding: 30px;
     position: sticky;
     top:0px;
     z-index: 4;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 h1 {
     font-size: 40px;
@@ -57,18 +57,27 @@ main #index button {
     background-image: url(../img/tierra.jpg);
     background-size: cover;
     position: fixed;
-    top:85%;
-    left: 90%;
-}
-main #index button a {
+    top:50%;
+    right: 3%;
+    z-index: 4;
+} 
+#index a {
     color: black;
     font-style: normal;
     text-decoration:none;
 }
+main #index button p {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*-----------------------------------------------------*/
 main section {
     display: flex;
-    min-height: 75vh;
+    min-height: 70vh;
     flex-direction: row;
     justify-content: center;
     align-content: center;
@@ -76,8 +85,8 @@ main section {
     flex-wrap: wrap;
 }
 .fondo {
-    width: 370px;
-    height:250px;
+    width: 300px;
+    height:193px;
     border-radius: 15px 15px 0px 0px ;
 }
 article {
@@ -87,32 +96,39 @@ article {
     align-items: center;
     justify-content: space-around;
     margin: 10px 0px;
+    width: 300px;
 }
 main section div {
-    width:370px;
+    width:300px;
     background-color: #F3F3F3;
-    height: 400px;
+    height: 336px;
     position: relative;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 main section div p {
     position: absolute;
-    bottom:34%;
-    padding: 0 30px 0;
+    top:25%;
+    width: 267px;
+    padding: 0 20px 0;
+    /*margin: 0px ;*/
     font-weight: 400;
     z-index: 3;
+    font-size: 15px;
 }
 .foto-perfil{
     position: absolute;
     bottom: 55%;
     z-index: 1;
     border-radius: 100px;
+    width: 122px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 main section h2 {
     position: absolute;
     bottom: 48%;
     z-index: 2;
+    font-size: 30px;
+    line-height: 35.16px;
 }
 button {
     position: absolute;
@@ -134,26 +150,22 @@ section .corazon {
 }
 /*-----------------footer---------------------------------*/
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: #00669F;
-    height: 75px;
-    padding: 30px 0 0 30px;
     margin-top: 10px;
     z-index: 4;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    min-height: 14vh;
 }
 footer p{
     color: white;
+    margin: 50px;
 
 }
 footer img {
     width: 124px;
     height: 34px;
-    position: absolute;
-    right: 5%;
-    top:35%;
+    margin: 50px;
 }
