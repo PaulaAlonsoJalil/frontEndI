@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    overflow-x:hidden;   
+}
+/*-----------------header---------------------------------*/
+aside {
+    background-color: #D1891C;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+aside p {
+    z-index: 3;
+    font-weight: 700;
+    padding: 30px;    
+}
+/*--------------------------titulo-----------------------*/
+header{
+    background-color: #00669F;
+    height: 12vh;
+    color: white;
+    position: sticky;
+    top:0px;
+    z-index: 4;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+/*-----------------main---------------------------------*/
+/*----------------boton al index-----------------------*/
+@font-face {
+    font-family: "caligrafia";
+    src: url(../font/Calligraphr-Regular.ttf);
+}
+main #index button {
+    width: 100px;
+    height: 100px;
+    color:black;
+    font-family: "caligrafia";
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 500px;
+    border-color: white;
+    background-image: url(../img/tierra.jpg);
+    background-size: cover;
+    position: fixed;
+    top:50%;
+    right: 3%;
+    z-index: 6;
+} 
+#index a {
+    color: black;
+    font-style: normal;
+    text-decoration:none;
+}
+main #index button p {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}/*---------------------------*/
+main #plus button {
+    width: 100px;
+    height: 100px;
+    color:black;
+    font-family: "caligrafia";
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 500px;
+    border-color: white;
+    background-image: url(../img/tierra.jpg);
+    background-size: cover;
+} 
+#plus a {
+    color: black;
+    font-style: normal;
+    text-decoration:none;
+}
+main #plus button p {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-----------------------------------------------------*/
+main section {
+    display: flex;
+    min-height: 75vh;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.fondo {
+    height:193px;
+    border-radius: 15px 15px 0px 0px ;
+    width:100%;
+}
+article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 300px;
+}
+main section div {
+    width:100%;
+    background-color: #F3F3F3;
+    height: 336px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main section div p {
+    position: absolute;
+    top:25%;
+    padding: 0 20px 0;
+    /*margin: 0px ;*/
+    font-weight: 400;
+    z-index: 3;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.foto-perfil{
+    position: absolute;
+    bottom: 55%;
+    z-index: 1;
+    border-radius: 100px;
+    width: 122px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main section h2 {
+    position: absolute;
+    bottom: 48%;
+    z-index: 2;
+    font-size: 2rem;
+    line-height: 35.16px;
+}
+button {
+    position: absolute;
+    bottom: 5%;
+    z-index: 1;
+    width: 129px; 
+    height: 49px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    color: white;
+    background-color: #00669F;
+    border-color: transparent;
+}
+section .corazon {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    z-index: 3;
+}
+/*-----------------footer---------------------------------*/
+footer {
+    width: 100%;
+    background-color: #00669F;
+    z-index: 4;
+    position: relative;
+    min-height: 9vh;
+}
+footer p{
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: calc(50% - 1rem);
+}
+footer img {
+    height: 3.5rem;
+    margin-right: 50px;
+    position: absolute;
+    right:5%;
+    top: calc(50% - 1.75rem);
+}
+/*-----------------------media Queries-----------------------*/
+@media (max-width: 768px){
+/*--------------------------titulo-----------------------*/
+header{
+    background-color: #00669F;
+    height: 12vh;
+    color: white;
+    position: sticky;
+    top:0px;
+    z-index: 4;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+/*-----------------main---------------------------------*/
+/*----------------boton al index-----------------------*/
+@font-face {
+    font-family: "caligrafia";
+    src: url(../font/Calligraphr-Regular.ttf);
+}
+main #index button {
+    width: 0px;
+    height: 70px;
+    color:black;
+    font-family: "caligrafia";
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 500px;
+    border-color: white;
+    background-image: url(../img/tierra.jpg);
+    background-size: cover;
+    position: fixed;
+    top:50%;
+    right: 3%;
+    z-index: 4;
+} 
+#index a {
+    color: black;
+    font-style: normal;
+    text-decoration:none;
+}
+main #index button p {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+}
+@media (max-width: 460px){
+    
+}
+
